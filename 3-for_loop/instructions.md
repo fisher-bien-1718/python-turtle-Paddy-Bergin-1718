@@ -3,7 +3,7 @@
 Writing the same set of instructions over and over isn't very efficient.
 Python can help use with the *for loop*. The for loop repeats a block of
 code a number of times
-```
+```python
 #  Draw a cube in 3 lines
 for x in range(0, 4):
     t.forward(100)
@@ -22,7 +22,7 @@ loop iteration is running. We'll see an example later.
 We can use for loops to make a variety of shapes, easily. Try to guess
 what this loop does, then run it to see if you were right.
 
-```
+```python
 for num in range(0, 5):
     t.forward(100)
     t.right(144)
@@ -30,7 +30,7 @@ for num in range(0, 5):
 Let's try one more. This one makes uses of the *variable* and even some
 multiplication using `*`.
 
-```
+```python
 for x in range(0, 50):
     t.forward(x * 4)
     t.right(90)
@@ -38,7 +38,7 @@ for x in range(0, 50):
 One last thing about for loops, you can nest them inside one another. So
 we can draw multiple squares in a row. Make sure you indent each line
 with the correct number of `tab`s!
-```
+```python
 for _ in range (0, 4): # First loop
     for _ in range(0, 4): # Second loop
         t.forward(100)
@@ -64,6 +64,5 @@ just a way to communicate to other people.
 | `t.pendown()` | put the pen back down |
 
 ## Goals
-1. Draw a 3x3 grid of squares (Use as few lines as possible, you'll need
-up to 3 for loops!)
-2. Draw any pattern that uses the for loop's variable
+1. Draw a 4x4 grid of squares (Use as few lines as possible)
+2. Use a for loop and it's variable

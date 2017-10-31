@@ -7,7 +7,7 @@ Python also comes with turtle, a *module*, that we are going to use to
 draw things onto a screen with. Let's look at at a quick example of
 Python.
 
-```
+```python
 import turtle
 
 window = turtle.Screen()
@@ -21,13 +21,13 @@ t.forward(100)
 Try running that code, and see what is output to the screen. Now, let's
 break it down line by line.
 
-```
+```python
 import turtle
 ```
 
 This line imports the "turtle" module, giving us access to it's code.
 
-```
+```python
 window = turtle.Screen()
 t = turtle.Turtle()
 ```
@@ -36,7 +36,7 @@ Here we create both a window and a turtle. We store both of these into a
 a word, or (in our case) a turtle. Now that we've made a turtle, we can
 access it using `t`.
 
-```
+```python
 t.forward(100)
 t.left(90)
 t.forward(100)

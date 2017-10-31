@@ -4,7 +4,7 @@ Turtle comes with a lot of functions that can change the way it draws.
 For instance, you can change the width of the pen by calling
 `t.pensize(x)`
 
-```
+```python
 #  Draw a triangle with increasing stroke size
 t.pensize(1)
 t.forward(100)
@@ -19,7 +19,7 @@ t.forward(100)
 `t.pencolor("color")` will change the pen color to your choice. Make
 sure to use a common name, or just pass in number as `rgb` values.
 
-```
+```python
 #  Draw a red triangle
 t.pencolor(1.0, 0, 0) # RGB values
 t.forward(100)

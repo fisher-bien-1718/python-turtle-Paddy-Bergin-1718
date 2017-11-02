@@ -1,3 +1,4 @@
+# There are two syntax errors and one logical error in this code
 import tur
 
 

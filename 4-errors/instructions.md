@@ -29,7 +29,7 @@ tur.left()
 
 >TypeError: left() missing 1 required positional argument: 'angle'
 
-Here we forgot to specify what angle to rotate, so python complains.
+Here we forgot to specify what angle to rotate, so Python complains.
 
 A logical error is different. Python won't complain when you make a
 logical error, instead you will receive an unexpected output.

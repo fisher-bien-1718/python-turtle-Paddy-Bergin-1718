@@ -1,7 +1,8 @@
 ## Setup
 
-We're about to write your first Python program. Python is a programming
-language used for making games, software development and even websites.
+We're about to a Python program. Python is a programming
+language used for making games, software development and can even create
+websites.
 
 Python also comes with turtle, a *module*, that we are going to use to
 draw things onto a screen with. Let's look at at a quick example of
@@ -18,7 +19,7 @@ t.left(90)
 t.forward(100)
 ```
 
-Try running that code, and see what is output to the screen. Now, let's
+Try running that code, and watch what happens. Now, let's
 break it down line by line.
 
 ```python
@@ -41,9 +42,11 @@ t.forward(100)
 t.left(90)
 t.forward(100)
 ```
-Now for the important part of the program. Here we call a *function* of
-`t`. This function is another block of code that exists somewhere in the
-turtle module. We don't know what it is exactly, but we don't need to.
+This is the meat of the program, where we move the turtle around and
+draw on the screen. Here we call a *function* of `t`. This function is
+another block of code that exists somewhere in the turtle module.
+Someone else wrote that function for us, and it probably does a lot of
+work for us. However, we just need to know what it does.
 
 ## Reference
 

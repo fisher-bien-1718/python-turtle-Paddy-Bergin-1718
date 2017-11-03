@@ -46,7 +46,7 @@ t.left(90)
 t.forward(100)
 ```
 Notice all the `'#'` lines around the code. These are called *comments*
-and are ignored when the program is ran. Use them to describe and
+and are ignored when the program is compiled. Use them to describe and
 organize your work.
 ## Reference
 

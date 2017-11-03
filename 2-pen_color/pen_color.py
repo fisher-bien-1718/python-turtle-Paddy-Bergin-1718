@@ -3,16 +3,13 @@ import turtle
 window = turtle.Screen()
 t = turtle.Turtle()
 
-for _ in range(0, 3):
-    for _ in range(0, 3):
-        for _ in range(0, 4):
-            t.forward(100)
-            t.left(90)
-        # t.forward(100)
-    t.left(90)
-    t.forward(100)
-    t.left(180)
-    t.forward(300)
-    t.left(90)
+t.pencolor(1.0, 0, 0) # RGB values
+t.forward(100)
+t.left(120)
+t.pencolor("red") # Common name
+t.forward(100)
+t.left(120)
+t.pencolor("#ff0000") # Hex code
+t.forward(100)
 
 window.mainloop()

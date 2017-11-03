@@ -1,5 +1,5 @@
 ## Setup
-There are a number of errors in `fixme.py`. Some are *syntax* errors and
+There are a number of errors in `find_e.py`. Some are *syntax* errors and
 some are *logical* errors. A syntax error is pretty easy to spot. Python
 will read out an error, and show you where it went wrong.
 ```python
@@ -53,6 +53,6 @@ print((x+y)/2)
 ```
 > 7.0
 
-Now that you've seen some examples, try opening up `fixme.py` and fixing
+Now that you've seen some examples, try opening up `find_e.py` and fixing
 the errors. There's no harm in running the file to help locate the
 errors.

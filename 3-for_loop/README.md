@@ -1,7 +1,7 @@
 ## Setup
 
 Writing the same set of instructions over and over isn't very efficient.
-Python can help use with the *for loop*. The for loop repeats a block of
+Python can help us with the *for loop*. The for loop repeats a block of
 code a number of times
 ```python
 #  Draw a cube in 3 lines
@@ -47,8 +47,8 @@ for _ in range (0, 4): # First loop
     t.forward(200)
     t.pendown()
 ```
-By naming the variable a underscore `_` we are saying "I don't care
-about this variable, not planning on using it." Nothing is changed, it's
+By naming the variable an underscore `_` we are saying "I don't care
+about this variable, not planning on using it again later." Nothing is changed, it's
 just a way to communicate to other people.
 ## Reference
 
@@ -65,4 +65,4 @@ just a way to communicate to other people.
 
 ## Goals
 1. Draw a 4x4 grid of squares (Use as few lines as possible)
-2. Use a for loop and it's variable
+2. Use a for loop and use it's variable

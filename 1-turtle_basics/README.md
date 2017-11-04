@@ -1,11 +1,11 @@
 ## Setup
 
-We're about to a Python program. Python is a programming
+We're about to write a Python program. Python is a programming
 language used for making games, software development and can even create
 websites.
 
 Python also comes with turtle, a *module*, that we are going to use to
-draw things onto a screen with. Let's look at at a quick example of
+draw things onto a screen. Let's look at at a quick example of
 Python.
 
 ```python
@@ -58,6 +58,6 @@ work for us. However, we just need to know what it does.
 | `t.left(x)`     | turn left x degrees |
 
 ## Goals
-1. Finish drawing the cube
+1. Finish drawing the square
 2. Draw a triangle with a right angle
 3. Draw a hexagon with 60 degree angles

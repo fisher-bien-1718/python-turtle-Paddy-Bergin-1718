@@ -29,6 +29,10 @@ Note that we use a double equal sign here `==`. If the user input the password 1
 
 >True 
 
+If the input from the user was anything but 1234, the output would be:
+
+>False
+
 Remember that:
 - A single equals `=` is for **assignment**
 - A double equals `==` is for **comparison**

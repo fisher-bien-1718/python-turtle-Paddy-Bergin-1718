@@ -25,7 +25,11 @@ We can also check if things are equal to each other.
 password = input("Input password: ")
 print(password == "1234")
 ```
-Note that we use a double equal sign here `==`. If the user input the password 1234, the output would be >True. Remember that:
+Note that we use a double equal sign here `==`. If the user input the password 1234, the output would be:
+
+>True 
+
+Remember that:
 - A single equals `=` is for **assignment**
 - A double equals `==` is for **comparison**
 

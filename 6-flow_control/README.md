@@ -100,3 +100,6 @@ Within the while loop, this is where we ask the user to try and guess the correc
 | `<=` | less than or equal to |
 | `and` | `True` if both sides are `True` |
 | `or` | `True` if at least one side is `True` |
+
+## Goal
+1. Write any turtle program that makes use of a while loop based on user input

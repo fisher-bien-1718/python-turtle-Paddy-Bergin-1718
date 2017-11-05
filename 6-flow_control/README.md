@@ -85,7 +85,7 @@ while (guess != number):
 ```
 Let's break this one down.  The first line imports another *module* called random and specifically grabs the randint part of the module.  randint is a command that chooses a random integer between the values you specify. We assign the random integer chosen between 1 and 100 to the variable called number.
 
-Guess is a variable assigned the value 0 for the sake of comparison.  The while loop starts by checking to see if the value of guess is *not* equal to the number.  If guess is not equal to the number, the while loop continues on.  If guess is equal to the number, the while loop stops executing.
+Guess is a variable assigned the value 0 for the sake of comparison and then later changed to the user's input value.  The while loop starts by checking to see if the value of guess is *not* equal to the number.  If guess is not equal to the number, the while loop continues on.  If guess is equal to the number, the while loop stops executing.
 
 Within the while loop, this is where we ask the user to try and guess the correct number and gives them a hint if their guess is above or below the random integer.  When the user guesses correctly, the output is "You got it!" and the while loop ends.
 

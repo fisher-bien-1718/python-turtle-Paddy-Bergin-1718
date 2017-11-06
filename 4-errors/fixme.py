@@ -1,5 +1,5 @@
 # There are two syntax errors and one logical error in this code
-# The out put should be a large spiral
+# The output should be a large spiral
 import turtl
 
 

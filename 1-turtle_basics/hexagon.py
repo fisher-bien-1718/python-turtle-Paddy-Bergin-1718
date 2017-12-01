@@ -1,0 +1,18 @@
+from turtle import*
+shape('turtle')
+#this will make a hexagon with 60 degree angles
+forward(60)
+left(60)
+forward(60)
+left(60)
+forward(60)
+left(60)
+forward(60)
+left(60)
+forward(60)
+left(60)
+forward(60)
+left(60)
+forward(60)
+left(60)
+done()

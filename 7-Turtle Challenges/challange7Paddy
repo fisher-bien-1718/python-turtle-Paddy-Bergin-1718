@@ -1,0 +1,53 @@
+from turtle import*
+#this will draw 6 triangle 60* apart shape 17
+for n in range(0, 6):
+    forward(60)
+    left(120)
+    forward(60)
+    left(120)
+    forward(60)
+    left(60)
+(done)
+from turtle import*
+left(30)
+#this will draw shape 17 
+for n in range(0, 6):
+    forward(60)
+    left(120)
+    forward(60)
+    left(120)
+    forward(60)
+    left(60)
+forward(60)
+left(60)
+forward(60)
+#this will draw 2 triangle with shape 17 inside
+for z in range(0,6):
+    left(120)
+    forward(60)
+    right(60)
+    forward(60)
+    (done)
+    
+from turtle import*
+#this will draw a pentagram in the correct orintation
+left(36)
+for t in range(0, 5):
+    forward(80)
+    left(180-36)
+(done)
+from turtle import*
+#this will draw a octagon
+for n in range (0,8):
+    forward(40)
+    right(45)
+right(45)
+#this will draw 8 rectangls off the sides
+for z in range (0,8):
+    left(135)
+    forward(100)
+    right(90)
+    forward(40)
+    right(90)
+    forward(100)
+(done)
